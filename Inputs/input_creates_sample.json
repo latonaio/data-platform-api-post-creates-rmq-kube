@@ -1,0 +1,35 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "POINT_TRANSACTION",
+	"api_type": "creates",
+	"PointTransaction": {
+		"PointTransaction": 1,
+		"PointTransactionType": "TST",
+		"PointTransactionDate": "2024-04-01",
+		"PointTransactionTime": "14:13:52",
+		"Sender": 1,
+		"Receiver": 1,
+		"PointSymbol": "POYPO",
+		"PlusMinus": "+",
+		"PointTransactionAmount": 300,
+		"PointTransactionObjectType": "EVT",
+		"PointTransactionObject": 1,
+		"SenderPointBalanceBeforeTransaction": 1000000,
+		"SenderPointBalanceAfterTransaction": 999700,
+		"ReceiverPointBalanceBeforeTransaction": 3000,
+		"ReceiverPointBalanceAfterTransaction": 3300,
+		"CreationDate": "2024-04-01",
+		"CreationTime": "14:13:52",
+		"IsCancelled": null
+	},
+	"api_schema": "DPFMPointTransactionCreates",
+	"accepter": [
+		"Event"
+	]
+}
